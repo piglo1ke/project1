@@ -1,0 +1,43 @@
+body {
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 300;
+ 	color: #747704;
+ }
+ 
+.navbar {
+	margin-bottom: 0;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+hr {
+	height: 3px;
+	background-color: #bcbbbb;
+}
+
+.logo {
+	height: 16%;
+	width: 16%;
+	margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+	.logo {
+		margin-left: 45%;
+		margin-right: 45%;
+	}
+	
+	.center-title {
+		text-align: center;
+	}
+
+	.text-muted {
+		text-align: center;
+	}
+}
